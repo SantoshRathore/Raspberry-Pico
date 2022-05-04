@@ -1,8 +1,7 @@
-from machine import Pin, Timer
+from machine import Pin
 import time
 
 led = Pin(25, Pin.OUT)
-timer = Timer()
 
 while True:
     led.toggle()
